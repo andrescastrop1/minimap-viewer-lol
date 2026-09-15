@@ -6,18 +6,29 @@ exported match data. No install, no server, no build step: open the HTML file an
 Built as a coaching tool for reviewing scrims and competitive matches, where the useful
 question is usually *where was everyone, and when* — something a stat sheet cannot answer.
 
+![Minimap Viewer replaying a match at 15:12 — match header, both team scoreboards with items and runes, build orders, objective timers and the minimap](screenshot.png)
+
 ## Features
 
-- **Timeline playback** over the minimap, with play/stop, rewind and speed control (up to 10x)
-- **Player positions by role**, with filters for Top / Jungle / Mid / ADC / Support, or all at once
+**On the map**
+
+- **Timeline playback** with play/stop, rewind, a scrubber and speed control up to 10x
+- **Player positions by role**, filtered by Top / Jungle / Mid / ADC / Support, or all at once
+- **Movement trails**, so you can see where a player came from, not just where they are
 - **Live map state** as the timeline advances — turrets, turret plates, inhibitors and nexus
   are drawn only while they are still standing
-- **Jungle camps** with spawn and respawn timers
-- **Wards** shown while active
-- **Kill markers** placed where each fight happened
-- **Objectives** — dragon and baron, with icons and timing
-- **Gold** tracking across the match
-- **Tooltips** with champion and items
+- **Jungle camps** with live respawn countdowns on each camp
+- **Wards** shown while active, **kill markers** stamped with the time of the fight
+
+**Around the map**
+
+- **Live scoreboard** for both teams — champion, player, level, KDA, CS, gold, items,
+  summoner spells and keystone, with a recall indicator when a player is backing
+- **Build order** per team: every item purchase with its timestamp and cost, plus total build value
+- **Objective panels** — dragon and baron pits, showing who took the last one and the countdown
+  to the next spawn
+- **Soul race** tracker
+- **Tooltips** with champion and item detail
 
 ## Usage
 
