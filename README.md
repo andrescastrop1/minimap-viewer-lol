@@ -17,7 +17,7 @@ question is usually *where was everyone, and when* — something a stat sheet ca
 - **Kill markers** placed where each fight happened
 - **Objectives** — dragon and baron, with icons and timing
 - **Gold** tracking across the match
-- **Tooltips** with champion, item and rune detail
+- **Tooltips** with champion and items
 
 ## Usage
 
